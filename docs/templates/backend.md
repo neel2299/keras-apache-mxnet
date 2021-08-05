@@ -75,7 +75,7 @@ You can change these settings by editing `$HOME/.keras/keras.json`.
 
 ## Using the abstract Keras backend to write new code
 
-If you want the Keras modules you write to be compatible with both Theano (`th`) and TensorFlow (`tf`), you have to write them via the abstract Keras backend API. Here's an intro.
+If you want the Keras modules you write, to be compatible with both Theano (`th`) and TensorFlow (`tf`), you have to write them via the abstract Keras backend API. Here's an intro.
 
 You can import the backend module via:
 ```python
